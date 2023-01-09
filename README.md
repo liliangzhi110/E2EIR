@@ -2,7 +2,7 @@
 
 
 
-![image-20230109174009382](/Users/Admin/Desktop/test/image-20230109174009382.png)
+![image-20230109174009382](image-20230109174009382.png)
 
 ## Contents
 
