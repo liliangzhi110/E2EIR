@@ -19,6 +19,17 @@ In addition to the dataset itself, we have provided the scripts for data generat
 ```Shell
 E2EIR/generate_affine_pre_data/generate_train_data/
 ```
+Or you can use the already generated training data
+
+```Shell
+
+dateset1: 0.23m resolution https://drive.google.com/drive/folders/1xyH2P1TRsRd9u2oXFGbYQ9zyQ4Ewu5U4?usp=sharing
+
+dataset2: 3.75m resolution https://drive.google.com/drive/folders/14kMVwVdvZ9YEFrwieqqMW1Fkn5Ne381S?usp=sharing
+
+dataset3: 30m resolution https://drive.google.com/drive/folders/1KL1wQ9-1oFthXH9YaCCNJ7KuRXozxu7M?usp=sharing
+```
+
 
 ## Training
 Our dataset is generated via a privileged agent which we call the autopilot (`/team_code_autopilot/autopilot.py`) in 8 CARLA towns using the routes and scenario files provided in [this folder](./leaderboard/data/training/). See the [tools/dataset](./tools/dataset) folder for detailed documentation regarding the training routes and scenarios. You can download the dataset (210GB) by running:
