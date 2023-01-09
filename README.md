@@ -14,7 +14,7 @@
 
 For training, validating, and testing the proposed network,we employ the PS-RGB(RGB), Multispectral(MS), andSAR-Intensity(SAR) datasets from the SpaceNet [32] dataset.
 
-In addition to the dataset itself, we have provided the scripts for data generation with our autopilot agent. To generate data
+In addition to the dataset itself, we have provided the scripts for data generation. To generate data,using the py file in the XXX folder
 
 ```Shell
 
