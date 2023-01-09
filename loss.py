@@ -9,7 +9,7 @@ class image_loss_mes(tf.keras.losses.Loss):
         data_true_image=tf.gather_nd(y_true,index)
         data_pred_image=tf.gather_nd(y_pred,index)
 
-        return tf.reduce_mean(tf.square(data_pred_image-data_true_image))
+        return NMInformation(data_pred_image-data_true_image)
 
 
 class matix_loss_mes(tf.keras.losses.Loss):
