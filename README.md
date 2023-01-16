@@ -1,4 +1,4 @@
-# Multimodal image fusion framework for end-to-endremote sensing image registration
+# Multimodal image fusion framework for end-to-end remote sensing image registration
 
 
 
